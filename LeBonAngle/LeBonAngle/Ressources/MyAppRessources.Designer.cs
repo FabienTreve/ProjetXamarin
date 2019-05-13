@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LeBonAngle.Ressources {
+namespace ListingOgGang.Ressources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace LeBonAngle.Ressources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LeBonAngle.Ressources.MyAppRessources", typeof(MyAppRessources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ListingOgGang.Ressources.MyAppRessources", typeof(MyAppRessources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

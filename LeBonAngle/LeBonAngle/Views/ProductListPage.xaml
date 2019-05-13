@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:res="clr-namespace:LeBonAngle.Ressources"
-             x:Class="LeBonAngle.Views.ProductListPage"
+             xmlns:res="clr-namespace:ListingOgGang.Ressources"
+             x:Class="ListingOgGang.Views.ProductListPage"
              Title="{res:Translate ApplicationName}">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Publier" Command="{Binding AddItemCommand}"/>

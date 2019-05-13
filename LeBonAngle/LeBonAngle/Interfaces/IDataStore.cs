@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace LeBonAngle.Interfaces
+namespace ListingOgGang.Interfaces
 {
     public interface IDataStore<T>
     {

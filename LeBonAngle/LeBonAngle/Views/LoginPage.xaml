@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:res ="clr-namespace:LeBonAngle.Ressources"
-             x:Class="LeBonAngle.Views.LoginPage">
+             xmlns:res ="clr-namespace:ListingOgGang.Ressources"
+             x:Class="ListingOgGang.Views.LoginPage">
     <ContentPage.Content>
       <StackLayout Padding="10">
           <Label Text="{res:Translate LoginPage_LblLogin}" FontSize="Large"/>

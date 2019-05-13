@@ -14,7 +14,7 @@
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>LeBonAngle.UWP</DisplayName>
+    <DisplayName>ListingOgGang.UWP</DisplayName>
     <PublisherDisplayName>6adf64d6-7316-476d-b496-e3394a481bb5</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="LeBonAngle.UWP.App">
+      EntryPoint="ListingOgGang.UWP.App">
       <uap:VisualElements
-        DisplayName="LeBonAngle.UWP"
+        DisplayName="ListingOgGang.UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="LeBonAngle.UWP"
+        Description="ListingOgGang.UWP"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
           <uap:ShowNameOnTiles>

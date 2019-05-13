@@ -60,3 +60,10 @@ C:\Users\fabie\source\repos\LeBonAngle\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimul
 C:\Users\fabie\source\repos\LeBonAngle\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimulator\Debug\LeBonAngle.iOS.csproj.CopyComplete
 C:\Users\fabie\source\repos\LeBonAngle\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimulator\Debug\LeBonAngle.iOS.exe
 C:\Users\fabie\source\repos\LeBonAngle\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimulator\Debug\LeBonAngle.iOS.pdb
+C:\Users\Jaldo\Documents\xamarin\ProjetXamarin\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Jaldo\Documents\xamarin\ProjetXamarin\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\Jaldo\Documents\xamarin\ProjetXamarin\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Jaldo\Documents\xamarin\ProjetXamarin\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Jaldo\Documents\xamarin\ProjetXamarin\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Jaldo\Documents\xamarin\ProjetXamarin\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\Jaldo\Documents\xamarin\ProjetXamarin\LeBonAngle\LeBonAngle.iOS\obj\iPhoneSimulator\Debug\LeBonAngle.iOS.csproj.CoreCompileInputs.cache

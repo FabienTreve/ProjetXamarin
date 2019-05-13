@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LeBonAngle.Models
+namespace ListingOgGang.Models
 {
     public class Category
     {

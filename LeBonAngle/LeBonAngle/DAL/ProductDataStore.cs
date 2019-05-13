@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LeBonAngle.DAL;
-using LeBonAngle.Interfaces;
-using LeBonAngle.Models;
-using LeBonAngle.Services;
+using ListingOgGang.DAL;
+using ListingOgGang.Interfaces;
+using ListingOgGang.Models;
+using ListingOgGang.Services;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(ProductDataStore))]
-namespace LeBonAngle.DAL
+namespace ListingOgGang.DAL
 {
-    public class ProductDataStore : IDataStore<Product>
+    public class ProductDataStore : IDataStore<Post>
     {
 
         public ProductDataStore()
@@ -19,13 +19,13 @@ namespace LeBonAngle.DAL
 
         }
 
-        public async Task<bool> AddItemAsync(Product item)
+        public async Task<bool> AddItemAsync(Post item)
         {
             //Need API
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> UpdateItemAsync(Product item)
+        public async Task<bool> UpdateItemAsync(Post item)
         {
             //Need API !!!
 
@@ -39,15 +39,15 @@ namespace LeBonAngle.DAL
             return await Task.FromResult(true);
         }
 
-        public async Task<Product> GetItemAsync(string id)
+        public async Task<Post> GetItemAsync(string id)
         {
-            BonAngleWebServices WSclient = new BonAngleWebServices();
+            ListingWebServices WSclient = new ListingWebServices();
             return await WSclient.APIV2_GetAnnounce(id);
         }
 
-        public async Task<List<Product>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<List<Post>> GetItemsAsync(bool forceRefresh = false)
         {
-            BonAngleWebServices WSclient = new BonAngleWebServices();
+            ListingWebServices WSclient = new ListingWebServices();
             return await WSclient.APIV2_GetAnnounces();
         }
     }

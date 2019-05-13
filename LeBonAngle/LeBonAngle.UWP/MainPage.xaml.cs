@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace LeBonAngle.UWP
+namespace ListingOgGang.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace LeBonAngle.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new LeBonAngle.App());
+            LoadApplication(new ListingOgGang.App());
         }
     }
 }

@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-using LeBonAngle.Models;
-using LeBonAngle.Views;
-using LeBonAngle.Ressources;
-using LeBonAngle.Utils;
-using LeBonAngle.Services;
+using ListingOgGang.Models;
+using ListingOgGang.Views;
+using ListingOgGang.Ressources;
+using ListingOgGang.Utils;
+using ListingOgGang.Services;
 
-namespace LeBonAngle.ViewModels
+namespace ListingOgGang.ViewModels
 {
     public class CreateAnnouncePageViewModel : BaseViewModel
     {
@@ -64,13 +64,13 @@ namespace LeBonAngle.ViewModels
                     && !String.IsNullOrWhiteSpace(Prix)
                     && Double.TryParse(Prix, out price))
                 {
-                    Product product = new Product();
+                    Post product = new Post();
                     product.Title = Titre;
                     product.Description = Description;
                     product.Price = price;
                     product.Category_ID = "1";
 
-                    BonAngleWebServices client = new BonAngleWebServices();
+                    ListingWebServices client = new ListingWebServices();
                     //TODO Changer l'API quand dispo...
                     var result = await client.APIV2_PostAnnounce(product);
                     if (result)

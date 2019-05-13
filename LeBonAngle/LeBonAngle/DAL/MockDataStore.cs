@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LeBonAngle.DAL;
-using LeBonAngle.Interfaces;
-using LeBonAngle.Models;
+using ListingOgGang.DAL;
+using ListingOgGang.Interfaces;
+using ListingOgGang.Models;
 using Xamarin.Forms;
 
 //[assembly: Dependency(typeof(MockDataStore))]
-//namespace LeBonAngle.DAL
+//namespace ListingOgGang.DAL
 //{
 //    public class MockDataStore : IDataStore<Product>
 //    {

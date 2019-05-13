@@ -5,27 +5,27 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-using LeBonAngle.Models;
-using LeBonAngle.Views;
-using LeBonAngle.Ressources;
-using LeBonAngle.Utils;
-using LeBonAngle.Services;
+using ListingOgGang.Models;
+using ListingOgGang.Views;
+using ListingOgGang.Ressources;
+using ListingOgGang.Utils;
+using ListingOgGang.Services;
 using System.Threading;
 
-namespace LeBonAngle.ViewModels
+namespace ListingOgGang.ViewModels
 {
     public class ProductListPageViewModel : BaseViewModel
     {
         public ProductListPageViewModel(INavigation Navigation) : base(Navigation)
         {
             Title = MyAppRessources.Title_AnnouncesPage;
-            Items = new ObservableCollection<Product>();
+            Items = new ObservableCollection<Post>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
             AddItemCommand = new Command(async () => await ExecuteAddItemCommand());
             //Au démarrage, on charge les items
             LoadItemsCommand.Execute(null);
         }
-        public ObservableCollection<Product> Items { get; set; }
+        public ObservableCollection<Post> Items { get; set; }
 
         public Command LoadItemsCommand { get; set; }
         private async Task ExecuteLoadItemsCommand()

@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-using LeBonAngle.Models;
-using LeBonAngle.Views;
-using LeBonAngle.Ressources;
-using LeBonAngle.Utils;
-using LeBonAngle.Services;
+using ListingOgGang.Models;
+using ListingOgGang.Views;
+using ListingOgGang.Ressources;
+using ListingOgGang.Utils;
+using ListingOgGang.Services;
 
-namespace LeBonAngle.ViewModels
+namespace ListingOgGang.ViewModels
 {
     public class LoginPageViewModel : BaseViewModel
     {
@@ -64,7 +64,7 @@ namespace LeBonAngle.ViewModels
                     Settings.Pwd = Password;
                     Settings.TokenAPI = String.Empty;
 
-                    BonAngleWebServices client = new BonAngleWebServices();
+                    ListingWebServices client = new ListingWebServices();
                     var result = await client.APIV2_AuthenticateUser();
                     if (result)
                     {

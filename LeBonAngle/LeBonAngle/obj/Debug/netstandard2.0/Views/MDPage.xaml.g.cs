@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LeBonAngle.Views.MDPage.xaml", "Views/MDPage.xaml", typeof(global::LeBonAngle.Views.MDPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ListingOgGang.Views.MDPage.xaml", "Views/MDPage.xaml", typeof(global::ListingOgGang.Views.MDPage))]
 
-namespace LeBonAngle.Views {
+namespace ListingOgGang.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MDPage.xaml")]

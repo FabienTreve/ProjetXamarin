@@ -5,12 +5,12 @@ using System.Runtime.CompilerServices;
 
 using Xamarin.Forms;
 
-using LeBonAngle.Models;
-using LeBonAngle.Services;
-using LeBonAngle.Interfaces;
-using LeBonAngle.DAL;
+using ListingOgGang.Models;
+using ListingOgGang.Services;
+using ListingOgGang.Interfaces;
+using ListingOgGang.DAL;
 
-namespace LeBonAngle.ViewModels
+namespace ListingOgGang.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
@@ -20,7 +20,7 @@ namespace LeBonAngle.ViewModels
             NavigationService = Navigation;
         }
 
-        public IDataStore<Product> ProductDataStore => DependencyService.Get<IDataStore<Product>>() ?? new ProductDataStore();
+        public IDataStore<Post> ProductDataStore => DependencyService.Get<IDataStore<Post>>() ?? new ProductDataStore();
 
         bool isBusy = false;
         public bool IsBusy

@@ -222,3 +222,5 @@ C:\Users\fabie\source\repos\LeBonAngle\LeBonAngle\LeBonAngle.Android\obj\Debug\8
 C:\Users\fabie\source\repos\LeBonAngle\LeBonAngle\LeBonAngle.Android\obj\Debug\81\android\assets\machine.config
 C:\Users\fabie\source\repos\LeBonAngle\LeBonAngle\LeBonAngle.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
 C:\Users\fabie\source\repos\LeBonAngle\LeBonAngle\LeBonAngle.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
+C:\Users\Jaldo\Documents\xamarin\ProjetXamarin\LeBonAngle\LeBonAngle.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\Jaldo\Documents\xamarin\ProjetXamarin\LeBonAngle\LeBonAngle.Android\obj\Debug\81\LeBonAngle.Android.csprojAssemblyReference.cache

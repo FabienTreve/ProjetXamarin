@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Essentials;
 
-namespace LeBonAngle.Utils
+namespace ListingOgGang.Utils
 {
     public static class Settings
     {

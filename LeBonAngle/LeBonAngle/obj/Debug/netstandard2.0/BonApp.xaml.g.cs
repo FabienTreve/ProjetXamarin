@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LeBonAngle.BonApp.xaml", "BonApp.xaml", typeof(global::LeBonAngle.BonApp))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ListingOgGang.BonApp.xaml", "BonApp.xaml", typeof(global::ListingOgGang.ListingApp))]
 
-namespace LeBonAngle {
+namespace ListingOgGang {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("BonApp.xaml")]
-    public partial class BonApp : global::Xamarin.Forms.Application {
+    public partial class ListingApp : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(BonApp));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ListingApp));
         }
     }
 }

@@ -1,12 +1,12 @@
-﻿using LeBonAngle.Models;
-using LeBonAngle.ViewModels;
+﻿using ListingOgGang.Models;
+using ListingOgGang.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace LeBonAngle.Views
+namespace ListingOgGang.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MDPage : MasterDetailPage

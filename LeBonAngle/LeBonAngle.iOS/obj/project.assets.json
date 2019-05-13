@@ -167,7 +167,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "LeBonAngle/1.0.0": {
+      "ListingOgGang/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -177,10 +177,10 @@
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
-          "bin/placeholder/LeBonAngle.dll": {}
+          "bin/placeholder/ListingOgGang.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LeBonAngle.dll": {}
+          "bin/placeholder/ListingOgGang.dll": {}
         }
       }
     },
@@ -350,7 +350,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "LeBonAngle/1.0.0": {
+      "ListingOgGang/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -360,10 +360,10 @@
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
-          "bin/placeholder/LeBonAngle.dll": {}
+          "bin/placeholder/ListingOgGang.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LeBonAngle.dll": {}
+          "bin/placeholder/ListingOgGang.dll": {}
         }
       }
     },
@@ -533,7 +533,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "LeBonAngle/1.0.0": {
+      "ListingOgGang/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -543,10 +543,10 @@
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
-          "bin/placeholder/LeBonAngle.dll": {}
+          "bin/placeholder/ListingOgGang.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LeBonAngle.dll": {}
+          "bin/placeholder/ListingOgGang.dll": {}
         }
       }
     },
@@ -716,7 +716,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "LeBonAngle/1.0.0": {
+      "ListingOgGang/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -726,10 +726,10 @@
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
-          "bin/placeholder/LeBonAngle.dll": {}
+          "bin/placeholder/ListingOgGang.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LeBonAngle.dll": {}
+          "bin/placeholder/ListingOgGang.dll": {}
         }
       }
     }
@@ -1036,15 +1036,15 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "LeBonAngle/1.0.0": {
+    "ListingOgGang/1.0.0": {
       "type": "project",
-      "path": "../LeBonAngle/LeBonAngle.csproj",
-      "msbuildProject": "../LeBonAngle/LeBonAngle.csproj"
+      "path": "../LeBonAngle/ListingOgGang.csproj",
+      "msbuildProject": "../LeBonAngle/ListingOgGang.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "LeBonAngle >= 1.0.0",
+      "ListingOgGang >= 1.0.0",
       "Newtonsoft.Json >= 12.0.2",
       "RestSharp >= 106.6.9",
       "Xamarin.Essentials >= 1.1.0",
@@ -1052,26 +1052,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fabie\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Jaldo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabie\\source\\repos\\LeBonAngle\\LeBonAngle\\LeBonAngle.iOS\\LeBonAngle.iOS.csproj",
-      "projectName": "LeBonAngle.iOS",
-      "projectPath": "C:\\Users\\fabie\\source\\repos\\LeBonAngle\\LeBonAngle\\LeBonAngle.iOS\\LeBonAngle.iOS.csproj",
-      "packagesPath": "C:\\Users\\fabie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabie\\source\\repos\\LeBonAngle\\LeBonAngle\\LeBonAngle.iOS\\obj\\",
+      "projectUniqueName": "C:\\Users\\Jaldo\\Documents\\xamarin\\ProjetXamarin\\LeBonAngle\\LeBonAngle.iOS\\ListingOgGang.iOS.csproj",
+      "projectName": "ListingOgGang.iOS",
+      "projectPath": "C:\\Users\\Jaldo\\Documents\\xamarin\\ProjetXamarin\\LeBonAngle\\LeBonAngle.iOS\\ListingOgGang.iOS.csproj",
+      "packagesPath": "C:\\Users\\Jaldo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jaldo\\Documents\\xamarin\\ProjetXamarin\\LeBonAngle\\LeBonAngle.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\fabie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Jaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1083,8 +1078,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\fabie\\source\\repos\\LeBonAngle\\LeBonAngle\\LeBonAngle\\LeBonAngle.csproj": {
-              "projectPath": "C:\\Users\\fabie\\source\\repos\\LeBonAngle\\LeBonAngle\\LeBonAngle\\LeBonAngle.csproj"
+            "C:\\Users\\Jaldo\\Documents\\xamarin\\ProjetXamarin\\LeBonAngle\\LeBonAngle\\ListingOgGang.csproj": {
+              "projectPath": "C:\\Users\\Jaldo\\Documents\\xamarin\\ProjetXamarin\\LeBonAngle\\LeBonAngle\\ListingOgGang.csproj"
             }
           }
         }

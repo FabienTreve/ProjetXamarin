@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using LeBonAngle.Models;
-using LeBonAngle.Views;
-using LeBonAngle.ViewModels;
+using ListingOgGang.Models;
+using ListingOgGang.Views;
+using ListingOgGang.ViewModels;
 
-namespace LeBonAngle.Views
+namespace ListingOgGang.Views
 {
     public partial class ProductListPage : ContentPage
     {
@@ -27,7 +27,7 @@ namespace LeBonAngle.Views
         {
             if (e.Item != null)
             {
-                Product selected = ((Product)e.Item);
+                Post selected = ((Post)e.Item);
                 await Navigation.PushAsync(new ProductDetailPage(selected));
             }
         }

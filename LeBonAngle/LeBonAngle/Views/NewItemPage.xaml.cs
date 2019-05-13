@@ -4,20 +4,20 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using LeBonAngle.Models;
+using ListingOgGang.Models;
 
-namespace LeBonAngle.Views
+namespace ListingOgGang.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewItemPage : ContentPage
     {
-        public Product Item { get; set; }
+        public Post Item { get; set; }
 
         public NewItemPage()
         {
             InitializeComponent();
 
-            Item = new Product
+            Item = new Post
             {
                 Title = "Item name",
                 Description = "This is an item description."

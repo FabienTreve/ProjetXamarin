@@ -1,8 +1,8 @@
+ListingOgGang
+System.Runtime
 FormsViewGroup
-LeBonAngle
 Newtonsoft.Json
 RestSharp
-System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
@@ -28,4 +28,3 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-netstandard

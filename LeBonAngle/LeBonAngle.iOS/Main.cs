@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace LeBonAngle.iOS
+namespace ListingOgGang.iOS
 {
     public class Application
     {

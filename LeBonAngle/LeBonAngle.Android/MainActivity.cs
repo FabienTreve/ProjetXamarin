@@ -6,12 +6,12 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using LeBonAngle.Interfaces;
-using LeBonAngle.Droid.Implementation;
+using ListingOgGang.Interfaces;
+using ListingOgGang.Droid.Implementation;
 
-namespace LeBonAngle.Droid
+namespace ListingOgGang.Droid
 {
-    [Activity(Label = "LeBonAngle", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "ListingOgGang", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

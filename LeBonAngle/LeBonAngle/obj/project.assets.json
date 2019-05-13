@@ -541,27 +541,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fabie\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Jaldo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabie\\source\\repos\\LeBonAngle\\LeBonAngle\\LeBonAngle\\LeBonAngle.csproj",
-      "projectName": "LeBonAngle",
-      "projectPath": "C:\\Users\\fabie\\source\\repos\\LeBonAngle\\LeBonAngle\\LeBonAngle\\LeBonAngle.csproj",
-      "packagesPath": "C:\\Users\\fabie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabie\\source\\repos\\LeBonAngle\\LeBonAngle\\LeBonAngle\\obj\\",
+      "projectUniqueName": "C:\\Users\\Jaldo\\Documents\\xamarin\\ProjetXamarin\\LeBonAngle\\LeBonAngle\\ListingOgGang.csproj",
+      "projectName": "ListingOgGang",
+      "projectPath": "C:\\Users\\Jaldo\\Documents\\xamarin\\ProjetXamarin\\LeBonAngle\\LeBonAngle\\ListingOgGang.csproj",
+      "packagesPath": "C:\\Users\\Jaldo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jaldo\\Documents\\xamarin\\ProjetXamarin\\LeBonAngle\\LeBonAngle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\fabie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Jaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

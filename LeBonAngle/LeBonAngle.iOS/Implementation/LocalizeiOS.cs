@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 
 using Foundation;
-using LeBonAngle.Interfaces;
-using LeBonAngle.iOS.Implementation;
+using ListingOgGang.Interfaces;
+using ListingOgGang.iOS.Implementation;
 using UIKit;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(LocalizeiOS))]
-namespace LeBonAngle.iOS.Implementation
+namespace ListingOgGang.iOS.Implementation
 {
     public class LocalizeiOS : ILocalize
     {

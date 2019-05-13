@@ -1,4 +1,4 @@
-﻿using LeBonAngle.Interfaces;
+﻿using ListingOgGang.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -8,13 +8,13 @@ using System.Text;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace LeBonAngle.Ressources
+namespace ListingOgGang.Ressources
 {
     [ContentProperty("Text")]
     public class TranslateExtension : IMarkupExtension
     {
         readonly CultureInfo ci;
-        const string ResourceId = "LeBonAngle.Ressources.MyAppRessources";
+        const string ResourceId = "ListingOgGang.Ressources.MyAppRessources";
 
         public TranslateExtension()
         {

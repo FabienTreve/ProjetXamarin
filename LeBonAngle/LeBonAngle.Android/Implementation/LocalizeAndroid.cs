@@ -10,12 +10,12 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using LeBonAngle.Droid.Implementation;
-using LeBonAngle.Interfaces;
+using ListingOgGang.Droid.Implementation;
+using ListingOgGang.Interfaces;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(LocalizeAndroid))]
-namespace LeBonAngle.Droid.Implementation
+namespace ListingOgGang.Droid.Implementation
 {
     public class LocalizeAndroid : ILocalize
     {
